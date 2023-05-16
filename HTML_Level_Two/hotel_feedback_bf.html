@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Feedback</title>
+</head>
+<body>
+  <h1>Hotel Feedback Form</h1>  
+  <form method="get">
+      <h3>Are you from the United States?</h3>
+
+      <!-- Linking them sharing the same name so only one can be on
+            Radio buttons -->
+      <label for= "inusa">Inside:</label>
+      <input id="inusa" type="radio" name="loc" value="inside">
+      <label for= "outusa">Outside:</label>
+      <input id="outusa" type="radio" name="loc" value="outside">
+
+
+
+  <form method="get">
+      <h3>How was your service?</h3>
+
+      <!-- Linking them sharing the same name so only one can be on
+            Radio buttons -->
+      <select name="stars">
+          <option value="Great">3</option>
+          <option value="OK">2</option>
+          <option value="Bad">1</option>
+      </select>
+      
+
+
+<h3>Any Other Feedback?</h3>
+<textarea name="mytext" id="" cols="80" rows="8"></textarea>
+
+<!-- This works for both forms -->
+<br>
+<input type="submit" name="" value="Submit">
+
+  </form>
+
+
+
+</body>
+</html>

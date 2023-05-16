@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+table {
+    margin: auto;
+}
+
+td{
+    width: 800px;
+    height: 400px;
+    border: 5px solid white;
+}
+
+#col1 {
+    background-color: #04977E;
+}
+#col2 {
+    background-color: #8DE4B5;
+}
+#col3 {
+    background-color: #079AA8;
+}
+#col4 {
+    background-color: #FCF12A;
+}
+#col5 {
+    background-color: #B2D244;
+
+}

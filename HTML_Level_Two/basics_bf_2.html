@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+
+
+<h1>Creating a Table</h1>
+<!-- thead makes the header row, and th is the labels for it 
+        tr is the row and td are the cells in order of the headers-->
+<table border="1">
+    <!-- table header setup - can be done without -->
+    <thead>
+        <th>Number</th>
+        <th>Color</th>
+        <th>Country</th>
+    </thead>
+    <!-- The rest of the data for the table -->
+    <tr>
+        <td>250</td>
+        <td>red</td>
+        <td>USA</td>
+    </tr>
+    <tr>
+        <td>100</td>
+        <td>Blue</td>
+        <td>France</td>
+    </tr>
+</table>
+
+<!-- Blank Rows -->
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+
+<!-- Create table with images built in -->
+<h1>Table with images</h1>
+<table border="1">
+    <!-- table header setup - can be done without -->
+    <thead>
+        <th>Name</th>
+        <th>Flag</th>
+        <th>GDP (US Millions $)</th>
+    </thead>
+    <!-- The rest of the data for the table -->
+    <tr>
+        <td>United States</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/190px-Flag_of_the_United_States.svg.png"></td>
+        <td>18,561,930</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/150px-Flag_of_India.svg.png"></td>
+        <td>2,250,990</td>
+    </tr>
+    <tr>
+        <td>UK</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png"></td>
+        <td>18,561,930</td>
+    </tr>
+</table>
+
+<!-- Blank Rows -->
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+
+<!-- Creating forms (inputs etc. from users) -->
+<form>
+    <h1>Login Form Creation</h1>
+    <h2>Please input email and password</h2>
+    <p>Email</p>
+    <input type="email" name="user email" placeholder="example@domain.com">
+    <p>Password</p>
+    <p><input type="password" name="user password" placeholder ="Password"></p>
+    <p><input type="Submit" name="" value="Click to Submit"></p>
+</form> 
+
+
+<!-- Different forms have different default functionality -->
+<form>
+    <h1>Color Choosing Form</h1>
+    <h2>Pick a color</h2>
+    <p><input type="Color" name="" value="Choose Color"></p>
+</form> 
+
+<br> 
+<br> 
+<br>
+
+<!-- Creating live forms -->
+<h1>Input actions</h1>
+<form action="https://www.facebook.com" method="get">
+    <p>Enter Email:</p>
+    <input type="email" name="userinput" value="">
+    <input type="submit" name="" placeholder="Submit">
+</form>
+
+<br> 
+<br> 
+<br> 
+
+<!-- Creating Labels and requiring input-->
+<h1>Creating Labels and requiring inputs</h1>
+<form>
+    <label for="userinput">Enter Input:</label>
+    <input id = "userinput" type="text" name="" placeholder="Enter text Here" required>
+    <input type="submit" name="" placeholder="Submit">
+    
+</form>
+
+
+<!-- Form selections etc. -->
+
+
+
+
+
+
+</body>
+</html>
